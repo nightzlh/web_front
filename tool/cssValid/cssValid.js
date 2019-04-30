@@ -35,3 +35,13 @@ function supportCss3(style) {
 
         return false;
 }
+
+function isCssValueValid(attr, val) {
+	var element = document.createElement('div');
+	if(attr in element.style) {
+		element.style[attr] = val;
+		return element.style[attr] === val;
+	} else {
+		return false;
+	}
+}

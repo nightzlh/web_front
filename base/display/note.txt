@@ -1,0 +1,3 @@
+display:run-in is not support by chorme   
+
+man can test if a csss attribute is supported by browser by function in cssValid.js in cssValid dir
