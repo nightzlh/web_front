@@ -1,3 +1,13 @@
 display:run-in is not support by chorme   
 
 man can test if a csss attribute is supported by browser by function in cssValid.js in cssValid dir
+
+
+difference between inline and block-inline 
+
+inline Don’t accept width or height properties, and top-bottom margin.inline配合widith height top-button margin 实际效果不确,应用中，inline 不要与width height top-button margin 混合使用.
+
+inline-block is a block, but accept width and height
+
+
+CSS Flexible Box Layout is a module of CSS that defines a CSS box model optimized for user interface design, and the layout of items in one dimension. In the flex layout model, the children of a flex container can be laid out in any direction, and can “flex” their sizes, either growing to fill unused space or shrinking to avoid overflowing the parent. Both horizontal and vertical alignment of the children can be easily manipulated.

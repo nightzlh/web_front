@@ -1,24 +1,51 @@
 .div-example {
 	border: 1px solid black;
 }
+
 .div-block {
 	border: 1px solid green;
 	width:100px;
-	height:50px;
+	height:80px;
 	display:block;
 }
 
 .div-inline-front {
 	border: 1px solid blue;
-	display:inline;
- 	width:100px; 		//inline 前置 width不起作用
- 	height:50px;		//inline 前置 height不起作用
+	display:inline;		//chrome中
+ 	width:200px; 		//inline 前置 width不起作用
+ 	height:80px;		//inline 前置 height不起作用		//chrome中
 }
 
+/*
+ * inline Don’t accept width or height properties, and top-bottom margin.inline配合widith height top-button margin 实际效果不确定
+ * 应用中，inline 不要与width height top-button margin 混合使用
+ * */
 .div-inline-back {
 	border: 1px solid red;
- 	width: 100px; 		//inline 后置 width起作用
- 	height: 50px;		//inline 后置 height起作用
+ 	width: 200px; 		//inline 后置 width起作用
+ 	height: 80px;		//inline 后置 height不起作用
 	display:inline;
 }
 
+/*
+ *inline-block is a block, but accept width and height
+ * */
+
+.div-inline-block {
+	border: 1px solid yellow;
+	display: inline-block;
+	width:200px;
+	height:80;
+}
+
+
+.div-flex {
+	border: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.div-flex div {
+	border: 1px solid blue;
+}
