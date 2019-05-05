@@ -1,0 +1,31 @@
+.example {
+	border: 1px solid black;
+}
+
+li:first-of-type + li {
+	color: red;
+}
+
+p ~ span {
+	color: red;
+}
+
+span {
+  background-color: white;
+}
+
+div > span {
+  background-color: blue;
+}
+
+#div-out {
+	border: 1px solid gray;
+	width: 70px;
+	height: 70px; 
+}
+
+#div-out div {
+	width:50px;
+	height:50px;
+	background-color: blue;
+}

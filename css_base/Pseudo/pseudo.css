@@ -1,0 +1,13 @@
+.example {
+	border: 1px solid black;
+}
+
+q::before {
+	content: "<<";
+	color: blue;
+}
+
+q:after {
+	content: ">>";
+	color: red;
+}
