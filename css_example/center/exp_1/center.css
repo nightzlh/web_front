@@ -1,0 +1,15 @@
+.example {
+	border: 1px solid black;
+}
+
+#example_1 {
+    display: table;
+	width: 100px;
+	height: 100px;
+}
+
+#example_1 span {
+    display: table-cell;
+    text-align:center;
+    vertical-align:middle;
+}
