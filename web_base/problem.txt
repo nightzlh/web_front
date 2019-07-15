@@ -1,0 +1,3 @@
+emoji:
+	emoji哪些控件支持?
+	emoj哪些浏览器支持?
